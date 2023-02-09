@@ -6,12 +6,16 @@
 
 body {
   margin: 0;
-  background: linear-gradient(to right, #aba18e, #696866);
+  background-color: lightseagreen !important;
 }
 
 .calculator-grid {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   display: grid;
-  margin-top: 5rem;
   justify-content: center;
   grid-template-columns: repeat(4, 6rem);
   grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
